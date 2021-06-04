@@ -1,0 +1,53 @@
+.jobSection {
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 600px) {
+  .jobSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.jobLogoContainer {
+
+}
+
+.jobLogo {
+  /* display: inline-block; */
+  /* width: 125px; */
+  flex-shrink: 0;
+  width: 100%;
+  max-width: none;
+}
+
+
+.jobTitle {
+  margin-bottom: 0.25em;
+}
+
+.jobInfo {
+  flex-grow: 1;
+  margin: 0 0 0 1rem;
+  max-width: 35em;
+}
+
+.jobHeader {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.jobDates {
+  margin-left: auto;
+  text-align: right;
+  font-style: italic;
+}
+
+.jobCompany {
+ margin: 0.5em 0;
+ color: inherit;
+}

@@ -16,12 +16,14 @@
   height: 100px;
   max-width: 80em;
   margin: 0 auto;
+  overflow: visible;
 }
 
 .title, .subtitle, .divider {
     margin: 0;
     display: flex;
     align-items: center;
+    transition: all 0.2s
 }
 
 .title {
@@ -41,6 +43,25 @@
     border-left: 1px solid #eee;
 }
 
+
+@media screen and (max-width: 700px) {
+  .headerContainer {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding: 1em 1rem;
+  }
+  .title {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+  .subtitle {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
 .main {
   max-width: 50em;
   margin: 0 auto;
@@ -53,6 +74,7 @@
   padding: 1em 1rem;
   background: #fff;
   border: 1px solid #E1E9F2;
+  margin: 1em 1rem;
 }
 
 .mainSection h2 {
@@ -62,6 +84,8 @@
 .about {
     background: #eee;
 }
+
+
 
 .footer {
     background: #ddd;

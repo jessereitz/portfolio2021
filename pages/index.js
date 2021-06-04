@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Menu from '../components/menu'
+import JobSection from '../components/jobSection'
 
 export default function Home() {
   const menuItems = [
@@ -56,6 +57,9 @@ export default function Home() {
         </section>
         <section className={styles.mainSection}>
           <h2>Experience</h2>
+          <JobSection />
+          <JobSection />
+          <JobSection />
         </section>
       </main>
       <footer className={styles.footer}>
