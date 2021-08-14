@@ -12,8 +12,6 @@
   border: 2px solid #888;
   border-style:solid;
   border-radius: 5px;
-  /* transition: all 0.2s; */
-  /* height: 100px; */
   height: auto;
   transition: width 1s height 1s;
   transition: flex
@@ -35,15 +33,15 @@
     font-size: 1rem;
     padding: 0.5em 0.65rem;
     margin-right: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-font);
     font-weight: 600;
     transition: all 0.2s;
     transition: width 1s;
 }
 
 .button:hover {
-  background: #485C73;
-  border-color: #485C73;
+  background: var(--main-color);
+  border-color: var(--main-color);
   color: #fff;
 }
 
@@ -57,8 +55,6 @@
   display: flex;
   flex-direction: column;
   max-width: 35em;
-  /* top: 0;
-  right: 0; */
   background: white;
   padding: 0.5em 1rem;
   list-style: none;

@@ -16,8 +16,6 @@
 }
 
 .jobLogo {
-  /* display: inline-block; */
-  /* width: 125px; */
   flex-shrink: 0;
   width: 100%;
   max-width: none;

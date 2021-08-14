@@ -34,7 +34,7 @@
 .subtitle {
     margin-left: 1rem;
     font-size: 1.5rem;
-    color: #B2B8BF;
+    color: var(--secondary-color);
 }
 
 .divider {
@@ -73,12 +73,12 @@
 .mainSection {
   padding: 1em 1rem;
   background: #fff;
-  border: 1px solid #E1E9F2;
+  border: 1px solid var(--main-color--bg);
   margin: 1em 1rem;
 }
 
 .mainSection h2 {
-  border-bottom: 1px solid #E1E9F2;
+  border-bottom: 1px solid var(--main-color--bg);
 }
 
 .about {

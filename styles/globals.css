@@ -1,14 +1,24 @@
+:root {
+  --main-color: #485C73;
+  --secondary-color: #B2B8BF;
+  --main-color--bg: #E1E9F2;
+  --main-color--text: #666;
+
+  --heading-font: 'Source Sans Pro', sans-serif;
+  --main-font: 'Montserrat', sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #666;
+  font-family: var(--heading-font);
+  color: var(--main-color--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    color: #485C73;
+    font-family: var(--main-font);
+    color: var(--main-color);
 }
 
 a, button {
@@ -16,15 +26,6 @@ a, button {
   text-decoration: none;
 }
 
-
-/* header {
-    padding: 1em 1rem;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-} */
 
 * {
   box-sizing: border-box;

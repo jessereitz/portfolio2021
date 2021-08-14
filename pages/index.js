@@ -10,6 +10,7 @@ export default function Home() {
     {name: 'Experience'},
     {name: 'Contact'}
   ]
+
   return (
     <div className={styles.container}>
       <Head>
@@ -55,12 +56,7 @@ export default function Home() {
             me as much.
         </p>
         </section>
-        <section className={styles.mainSection}>
-          <h2>Experience</h2>
-          <JobSection />
-          <JobSection />
-          <JobSection />
-        </section>
+
       </main>
       <footer className={styles.footer}>
 
